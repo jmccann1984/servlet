@@ -1,0 +1,55 @@
+.border {
+    border: 1px solid black;
+    width: 25%;
+    padding: 1em 1.5em;
+    margin-top: 1em;
+}
+
+.border > .content {
+    position: relative;
+    top:-.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentRow {
+    padding: 0.4em;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    clear:both;
+}
+
+.borderTitle {
+    background-color: white;
+    position:relative;
+    left: -1em;
+    top:-1.5em;
+    padding:0.2em 0.5em;
+    margin:0;
+}
+
+.contentRow > select {
+    width: 100%;
+    border-radius:.5em;
+    -webkit-box-shadow: 0 .15em 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 .15em 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 .15em 0 #ccc, 0 -1px #fff inset;
+}
+
+.contentHead {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.contentRow > .label {
+    width: 25%;
+}
+
+.contentRow > .input {
+    width: 75%
+}
+
+.input > input {
+    width: 100%
+}
